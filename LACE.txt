@@ -1,0 +1,27 @@
+What is the difference between var and let?
+    -With var you can redeclare and reassign [function scoped]
+    -With let you can only reassign [block scoped]
+
+What is the difference between var and const?
+    -var you can redeclare and reassign[function scoped]
+    -const you cannot do either but you can mutate objects and arrays[block scoped]
+
+What is the difference between let and const?
+    -let you can reassign and mutate[block scoped]
+    - const can only mutate[block scoped]
+
+What is hoisting?
+    -variables are basically lifted to the top of the scope they are declared in but its value will be undefined.
+
+
+    exameple : 
+
+    var allergies; //variables is 'hoisted to the top'
+
+
+
+    console.log(allergies) // undefined
+
+    var allergies = 'peanuts';
+
+    console.log(allergies) // 'peanuts'
